@@ -1,4 +1,9 @@
-
+body{
+    background-color: #818181;
+}
+.container{
+  margin-top: -7%;
+}
 .sidenav {
   height: 100%;
   width: 265px;
@@ -15,8 +20,7 @@ hr{
     visibility: hidden;
 }
 .btn{
-    width: 265px;
-    background-color: #818181;
+  width: 265px;
 }
 
 .sidenav a {

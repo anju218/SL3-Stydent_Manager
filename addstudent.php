@@ -36,13 +36,19 @@ if(isset($_POST['add'])){
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-  </head>
+    <style>
+        .nav{
+            width: 100%;
+        }
+    </style>
+</head>
   <body>
-    <div class="sidenav" class="col-12" >
-    <div class="btn-group-vertical btn-group-lg col-12" role="group" aria-label="Button group with nested dropdown">
-    <button type="button" class="btn btn-secondary">Dashboard</button>
-    <button type="button" class="btn btn-secondary">Add Student</button>
-    <button type="button" class="btn btn-secondary">View Student</button>
+     <h2 class="text-center text-danger pt-3 font-weight-bold">Student Management System</h2>
+    <div class="col-md-5 col-sm-4 col-xs-4">
+    <div class="btn-group-vertical btn-group-lg btn-group-block" role="group" aria-label="Button group with nested dropdown">
+    <a href="main.php"><button  type="button" class="btn btn-secondary">Dashboard</button></a>
+    <a href="addstudent.php"><button type="button" class="btn btn-secondary">Add Student</button></a>
+    <a href="viewstudent.php"><button type="button" class="btn btn-secondary">View Student</button></a>
     </div>
 
     <!-- <a href="#about">About</a>
@@ -52,7 +58,7 @@ if(isset($_POST['add'])){
     </div>
     <section id="main-form">
         <p class="text-center"><?php echo $success; echo $error ?></p>
-        <h2 class="text-center text-danger pt-3 font-weight-bold">Student Management System</h2>
+        
         <div class="container w-100 bg-danger" id="formsetting">
             <h3 class="text-center text-white pb-3 pt-2 font-weight-bold">Add Student Details</h3>
             <form method="post" action="">

@@ -57,8 +57,8 @@ if(isset($_POST["submit"])){
         <div class="container bg-danger formsetting">
             <h3 class="text-white bg-danger text-center py-3">Admin Login | Registration</h3>
             <div class="row">
-                <div class="col-md-7 col-sm-7 col-12">
-                    
+                <div class="col-md-7 col-sm-7 col-12 pb-3">
+                    <img  class="col-md-12 col-sm-7 col-12 m-auto" src="school_pic.jpg">
                 </div>
                 <div class="col-md-5 col-sm-5 col-12">
                     <div class="pb-3">
