@@ -53,7 +53,7 @@ if(isset($_POST["submit"])){
   <body>
     <section>
         <h2 class="text-center pt-5 font-weight-bold">Student Management System</h2>
-        <!-- <p class="text-center font-weight-bold text-danger"><?php echo @$_GET['error']?></p> -->
+        <p class="text-center font-weight-bold text-danger"><?php echo @$_GET['error']?></p>
         <div class="container bg-danger formsetting">
             <h3 class="text-white bg-danger text-center py-3">Admin Login | Registration</h3>
             <div class="row">

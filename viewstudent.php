@@ -16,7 +16,7 @@ include 'dbconnect.php';
   </head>
   <body>
   <h2 class="text-center text-danger pt-3 font-weight-bold">Student Management System</h2>
-    <div >
+    <div class="col-md-5 col-sm-4 col-xs-4">
     <div class="btn-group-vertical btn-group-lg col-12" role="group" aria-label="Button group with nested dropdown">
     <a href="main.php"><button  type="button" class="btn btn-secondary">Dashboard</button></a>
     <a href="addstudent.php"><button type="button" class="btn btn-secondary">Add Student</button></a>
